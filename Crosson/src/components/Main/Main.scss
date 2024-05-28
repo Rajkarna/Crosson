@@ -1,0 +1,31 @@
+.main-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgb(161, 155, 155, 0.3);
+}
+
+.social-container{
+    display: flex;
+    gap: 50px;
+   
+}
+
+.social-media{
+    margin: 25px;
+}
+
+.contact{
+    margin: 17px;
+}
+
+.title{
+    font-family: Roboto;
+    font-size: 42px;
+    font-weight: 700;
+    margin: 14px;
+}
+
+.language{
+    margin: 20px;
+}
