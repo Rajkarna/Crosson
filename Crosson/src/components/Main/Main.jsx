@@ -8,7 +8,7 @@ const Main = () => {
         <img src="contact.png" />
       </div>
 
-      <div className="title">Crosson</div>
+      <div className="title">Deepthi</div>
 
       <div className="social-container">
         <div className="social-media">
