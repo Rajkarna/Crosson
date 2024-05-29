@@ -10,7 +10,7 @@ const WhoAreWe = () => {
           <div className="about-us">
             <h2 className="heading">
               Crosson is an international group <br />
-              dedicated to the food industry.
+              dedicated to the <span className="underline">food industry</span>.
             </h2>
             <div className="about-us-p">
               <p>
@@ -57,7 +57,10 @@ const WhoAreWe = () => {
               </div>
               <div>
                 <h4>We touch 850 million people a day</h4>
-                <p>850 million people use products made by their machines every day</p>
+                <p>
+                  850 million people use products made by their machines every
+                  day
+                </p>
               </div>
             </div>
           </div>
