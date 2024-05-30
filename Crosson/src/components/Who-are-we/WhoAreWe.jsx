@@ -26,7 +26,7 @@ const WhoAreWe = () => {
             </div>
             <div className="about">
               <div className="about-container">
-                <button className="abt-btn">Our Products</button>
+                <button className="abt-btn">About us</button>
                 <img className="icon" src="Icon.png" />
               </div>
               <div className="quality">Quality Certificates</div>
