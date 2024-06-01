@@ -6,6 +6,7 @@ import Slider from './components/Slider/slider';
 import WhoAreWe from './components/Who-are-we/WhoAreWe';
 import WhatWeDo from './components/What-we-do/WhatWeDo';
 import './App.scss';
+import Detail from './components/Detail/Detail';
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
     <div><Slider/></div>
     <div><WhoAreWe/></div>
     <WhatWeDo/>
+    <Detail />
 
     </>
   )
