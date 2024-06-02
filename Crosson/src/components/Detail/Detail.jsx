@@ -41,21 +41,29 @@ const Detail = () => {
           <img src="calender.png" />
         </div>
 
-        {/* <div className="detail_right_top">
-          <div className="left_top">
-            <h5>Let's Plan an Online Meeting</h5>
-            <p>We are Available Now</p>
+        <div >
+          <div className="left-middle">
+            <h6>Are you interested? Contact our sales department now</h6>
           </div>
-          <img src="calender.png" />
+          <div className="contactUs"> 
+            <div>
+              <img src="contactUs.png" />
+            </div>
+            <div>
+              <p className="contactNum"><span>Erkan giris </span>/Sales Manager</p>
+              <p>+0(850) 544 7514</p>
+            </div>
+            </div>
+            <div className="contactUs"> 
+            <div>
+              <img src="mail.png" />
+            </div>
+            <div>
+              <p className="sale"> Sales Department</p>
+              <span>sales@crosson.com</span>
+            </div>
+            </div>
         </div>
-
-        <div className="detail_right_top">
-          <div className="left_top">
-            <h5>Let's Plan an Online Meeting</h5>
-            <p>We are Available Now</p>
-          </div>
-          <img src="calender.png" />
-        </div> */}
       </div>
     </div>
   );

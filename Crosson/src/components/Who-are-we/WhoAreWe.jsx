@@ -34,7 +34,7 @@ const WhoAreWe = () => {
           </div>
           <div className="list">
             <div className="verify">
-              <div className="image">
+              <div className="images">
                 <img src="verified.png" />
               </div>
               <div>
