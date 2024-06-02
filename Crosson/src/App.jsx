@@ -9,6 +9,7 @@ import "./App.scss";
 import Detail from "./components/Detail/Detail";
 import HowWeDo from "./components/How-we-do/how-we-do";
 import News from "./components/News/News";
+import Footer from "./components/Footer/footer";
 
 const App = () => {
   return (
@@ -23,9 +24,9 @@ const App = () => {
       <WhatWeDo />
 
       <Detail />
-      <HowWeDo/>
-    
+      <HowWeDo />
       <News />
+      <Footer />
     </>
   );
 };
