@@ -1,0 +1,85 @@
+.hwd-main{
+  margin-left: 259px;
+  display: flex;
+  flex-direction: column;
+}
+.How-we-do-container{
+  width: 700px;
+  height: 68px;
+  
+  .hWD{
+    margin-top: 10px;
+  color: var(--Black, #000);
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 133.333% */
+  }
+  h4{
+    font-family: Roboto;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+  }
+}
+.How-we-do {
+  color: rgb(202, 202, 204);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 160% */   
+  }
+  .image{
+    flex-direction: column;
+    h5{
+      margin-top: 26px;
+      color: var(--Black, #000);
+
+/* Heading 4 */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 133.333% */
+    }
+    p{
+      color: var(--Black, #000);
+
+/* Light Paragraph */
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 133.333% */
+letter-spacing: 0.36px;
+width: 70%;
+    }
+    .only-img{
+    width: 450px;
+height: 304px;
+  }
+}
+.Bottom-container{
+  margin-top: 100px;
+  display: flex;
+  width: 900px;
+  gap: 20px;
+}
+.read-more{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  margin-top: 18px;
+  .hwd-btn{
+    flex-direction: row;
+    border: none;
+    
+  }
+  .hwd-icon{
+    margin-top: 4px;
+  }
+}
