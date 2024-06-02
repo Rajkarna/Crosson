@@ -14,7 +14,7 @@ import News from './components/News/News';
 const App = () => {
   return (
     <>
-    <div><Header /></div>
+
     <div><Slider/></div>
     <div><WhoAreWe/></div>
     <WhatWeDo/>
