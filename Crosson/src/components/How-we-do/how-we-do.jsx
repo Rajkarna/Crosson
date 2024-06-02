@@ -20,18 +20,19 @@ const HowWeDo = () => {
                     </div>
                 </div>
                 <div className="image">
-                    <img className = "only-img"src='Image.png'/>
-                    <h5>Product Design</h5>
-                    <p>Toffee sweet roll caramels oat cake lemon drops cupcake sweet roll halvah ice cream.</p>
+                    <img className = "only-img"src='Image (1).png'/>
+                    <h5>Planing & Production</h5>
+                    <p>Center we have
+developped many patents in filling and packaging technology.</p>
                     <div className="read-more">
                     <button className="hwd-btn">Read more</button>
                     <img className="hwd-icon" src="Icon.png"/>
                     </div>
                 </div>
                 <div className="image">
-                    <img className = "only-img"src='Image.png'/>
-                    <h5>Product Design</h5>
-                    <p>Toffee sweet roll caramels oat cake lemon drops cupcake sweet roll halvah ice cream.</p>
+                    <img className = "only-img"src='Image (2).png'/>
+                    <h5>Installation & Comisioning</h5>
+                    <p>Marshmallow pastry jelly beans chocolate bar cake pastry powder gummi bears. </p>
                     <div className="read-more">
                     <button className="hwd-btn">Read more</button>
                     <img className="hwd-icon" src="Icon.png"/>
