@@ -17,7 +17,7 @@ const App = () => {
     <div><Slider/></div>
     <div><WhoAreWe/></div>
     <WhatWeDo/>
-    <Detail />
+ 
 
     <News />
 
