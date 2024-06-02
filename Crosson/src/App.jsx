@@ -7,6 +7,7 @@ import WhoAreWe from './components/Who-are-we/WhoAreWe';
 import WhatWeDo from './components/What-we-do/WhatWeDo';
 import './App.scss';
 import Detail from './components/Detail/Detail';
+import News from './components/News/News';
 
 
 const App = () => {
@@ -17,6 +18,8 @@ const App = () => {
     <div><WhoAreWe/></div>
     <WhatWeDo/>
     <Detail />
+
+    <News />
 
     </>
   )
