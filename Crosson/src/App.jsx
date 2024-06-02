@@ -23,6 +23,7 @@ const App = () => {
       <WhatWeDo />
 
       <Detail />
+      <HowWeDo/>
     
       <News />
     </>
