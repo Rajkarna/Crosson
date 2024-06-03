@@ -1,48 +1,106 @@
-.ftr-container{
-    width: auto;
+.ftr-container {
+  width: auto;
 }
-.top-left-con{
+.top-left-con {
+  display: flex;
+  margin-left: 250px;
+}
+.questions {
+  margin-right: 15%;
+}
+.contactUs {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  margin: 0 20px;
+  img {
     display: flex;
-    margin-left: 250px;
-}
-.questions{
-    margin-right: 15%;
-}
-.contactUs{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap:10px;
-    margin:0 20px;
-    img{
-      display: flex;
-    }
-    p{
+  }
+  p {
     color: var(--Black, #000);
     font-family: Inter;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    }
-    .para{
-      color: var(--Black, #000);
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-    }
   }
-  h4 {
+  .para {
     color: var(--Black, #000);
-    /* Heading 3 */
     font-family: Roboto;
-    font-size: 30px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}
+h4 {
+  color: var(--Black, #000);
+  /* Heading 3 */
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px; /* 126.667% */
+}
+.location {
+  width: 70%;
+}
+
+.headquarters span {
+  text-decoration: underline;
+  color: #000;
+}
+
+.footer_bottom {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 1220px;
+  margin-left: 250px;
+  margin-top: 30px;
+  // padding: 70px;
+}
+
+.footer_bottom_left {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+
+  .footer_list {
+    list-style: none;
+  }
+
+  .footer_list li:first-child {
+    color: #000;
+
+    font-family: Roboto;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 38px; /* 126.667% */
+    line-height: 40px; /* 125% */
   }
-.location{
-    width: 70%;
+
+  .footer_list li {
+    color: #000;
+
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 250% */
   }
+}
+
+.footer_bottom_right{
+
+  display: flex;
+
+  .ladder_image{
+    align-content: flex-start;
+    width: 64px;
+    height: 64px;
+  }
+}
