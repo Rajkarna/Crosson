@@ -5,8 +5,8 @@ const HowWeDo = () => {
     return (
         <div className="hwd-main">
             <div className="How-we-do-container">
-                <p className="How-we-do ">How we do</p>
-                <h4>A journey from design to product.</h4>
+                <p className="How-we-do ">HOW WE DO</p>
+                <h4>A journey from <span className="underline">design to product.</span></h4>
                 <p className="hWD">Starting from the planning of the product our customer wants; design, manufacturing, software, mounting, installation & comissioning are made by us.</p>
             </div>
             <div className="Bottom-container">
