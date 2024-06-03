@@ -23,9 +23,10 @@ const App = () => {
       <WhatWeDo />
 
       <Detail />
-      <HowWeDo/>
+      {/* <HowWeDo/> */}
     
       <News />
+     
     </>
   );
 };
