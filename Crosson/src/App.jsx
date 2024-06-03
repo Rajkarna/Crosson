@@ -1,34 +1,34 @@
 import React from "react";
-import { experience } from "./typography/typography";
+import { createBrowserRouter,Outlet, Route, RouterProvider} from 'react-router-dom'
 import "./typography/typography.scss";
 import Header from "./components/Header/Header";
-import Slider from "./components/Slider/slider";
-import WhoAreWe from "./components/Who-are-we/WhoAreWe";
-import WhatWeDo from "./components/What-we-do/WhatWeDo";
 import "./App.scss";
-import Detail from "./components/Detail/Detail";
-import HowWeDo from "./components/How-we-do/how-we-do";
-import News from "./components/News/News";
 import Footer from "./components/Footer/footer";
+import Home from "./pages/Home-page";
+import Product from "./pages/product";
+import Service from "./pages/service";
 
-const App = () => {
+const Layout = ({children}) => {
   return (
     <>
       <Header />
-      <div>
-        <Slider />
-      </div>
-      <div>
-        <WhoAreWe />
-      </div>
-      <WhatWeDo />
-
-      <Detail />
-      <HowWeDo />
-      <News />
+      <Outlet />
       <Footer />
     </>
   );
+};
+const router = createBrowserRouter([
+  {path:"/",element: <Layout />,
+  children:[
+  {path: "/",element: <Home />},
+  {path: "/Product",element: <Product />},
+  {path: "/Service",element: <Service/>}
+  ],
+}
+]);
+
+const App = () => {
+  return <RouterProvider router={router}/>
 };
 
 export default App;
