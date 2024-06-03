@@ -1,4 +1,23 @@
+
+
+.footer{
+  position: relative;
+}
+
+.footer_image{
+  height: 400px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  position: absolute;
+  opacity: 0.2;
+background: url('footer_image.png') lightgray 50% / cover no-repeat;
+background-blend-mode: luminosity;
+}
+
 .ftr-container {
+  padding: 30px 0;
   width: auto;
 }
 .top-left-con {
@@ -20,7 +39,7 @@
   p {
     color: var(--Black, #000);
     font-family: Inter;
-    font-size: 12px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -28,7 +47,7 @@
   .para {
     color: var(--Black, #000);
     font-family: Roboto;
-    font-size: 16px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -55,8 +74,7 @@ h4 {
 .footer_bottom {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   width: 1220px;
   margin-left: 250px;
@@ -94,13 +112,78 @@ h4 {
   }
 }
 
-.footer_bottom_right{
-
+.footer_bottom_right {
+  height: 250px;
+  margin-left: 75px;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 
-  .ladder_image{
-    align-content: flex-start;
+  .ladder_image {
+    align-self: flex-start;
     width: 64px;
     height: 64px;
+  }
+
+  .footer_bottom_right_content {
+    align-self: flex-start;
+    line-height: 50px;
+   
+
+    h5 {
+      color: #000;
+
+      font-family: Roboto;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 40px; /* 125% */
+    }
+
+    p {
+      width: 70%;
+      color: var(--Black, #000);
+      font-family: Roboto;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px; /* 150% */
+      letter-spacing: 0.32px;
+    }
+
+    button {
+      font-family: Roboto;
+      margin-top: 10px;
+      width: 151px;
+      height: 28px;
+      border: none;
+      background: #fcd900;
+      position: relative;
+
+      .news_button_icon img {
+        position: absolute;
+        right: 10px;
+        bottom: 8px;
+        width: 4.943px;
+        height: 9.167px;
+      }
+    }
+  }
+}
+
+.footer_last{
+  margin: 17px 0;
+  display: flex;
+  justify-content: space-evenly;
+
+  p{
+color: grey;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 40px; /* 285.714% */
   }
 }

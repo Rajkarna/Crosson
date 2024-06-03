@@ -3,6 +3,9 @@ import "./style.scss";
 
 const Footer = () => {
   return (
+    <div className="footer_section">
+    <div className="footer">
+      <div className="footer_image"></div>
     <div className="ftr-container">
       <div className="top-left-con">
         <div className="questions">
@@ -74,9 +77,30 @@ const Footer = () => {
           <div className="ladder_image">
             <img src="cloud_ladder.png" />
           </div>
+
+          <div className="footer_bottom_right_content">
+            <h5>Career Opportunities</h5>
+            <p>
+              Cake pudding lollipop pastry cupcake chocolate. Gummi bears halvah
+              sesame snaps.
+            </p>
+            <button>
+              opening postions
+              <span className="news_button_icon">
+                <img src="news_button_icon.png" />
+              </span>
+            </button>
+          </div>
         </div>
       </div>
     </div>
+  </div>
+  <hr/>
+  <div className="footer_last">
+    <p>Copyright by Erkan Giris  |  All rights reserverd</p>
+    <p>Our Privacy and Personal Data Protection Policy  |   Terms and Conditions of Use</p>
+  </div>
+  </div>
   );
 };
 
