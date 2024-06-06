@@ -5,13 +5,15 @@ import App from './App'
 import Home from './pages/Home'
 import Product from './pages/product'
 import Service from './pages/service'
+import ContactUs from './components/Contact-us/contact-us'
 
 const router = createBrowserRouter([
   {path:"/",element: <App />,
   children:[
   {path: "/",element: <Home />},
   {path: "/Product",element: <Product />},
-  {path: "/Service",element: <Service/>}
+  {path: "/Service",element: <Service/>},
+  {path:"/contact",element:<ContactUs/>}
   ],
 }
 ]);
